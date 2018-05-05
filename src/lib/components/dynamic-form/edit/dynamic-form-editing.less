@@ -1,0 +1,45 @@
+.dynamic-form-editing {
+  .base-form {
+    .base-form-item {
+      padding: 1.5rem;
+      &:hover {
+        background-color: #ebf8fb;
+        border-left: 5px solid #0db3a6;
+        .action {
+          z-index: 9;
+          bottom: -1.2rem;
+          right: 0;
+          opacity: 1;
+          .edit-btn {
+            display: inline-block;
+            &.copy {
+              transform: translateX(-1.5rem);
+            }
+            &.delete {
+              transform: translateX(-1rem);
+            }
+          }
+        }
+      }
+      &.dynamic-field-selected {
+        background-color: #ebf8fb;
+        border-left: 5px solid #0db3a6;
+        .action {
+          z-index: 9;
+          bottom: -1.2rem;
+          right: 0;
+          opacity: 1;
+          .edit-btn {
+            display: inline-block;
+            &.copy {
+              transform: translateX(-1.5rem);
+            }
+            &.delete {
+              transform: translateX(-1rem);
+            }
+          }
+        }
+      }
+    }
+  }
+}

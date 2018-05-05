@@ -191,7 +191,6 @@ export default {
 	created() {
 		this.emitValue(this.inputValue);
 		this.$emit("on-add-validate", this.validate);
-		console.log("Inputs", Inputs);
 		let style = Inputs[this.inputType].style;
 		let minWidth =
 			style && _.isObject(style) ? style["min-width"] : undefined;

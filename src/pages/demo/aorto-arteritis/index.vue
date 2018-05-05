@@ -444,9 +444,7 @@ export default {
 			//console.log("val", JSON.stringify(val), property);
 		}
 	},
-	created() {
-		console.log("general_information1", general_information1);
-	}
+	created() {}
 };
 </script>
 
